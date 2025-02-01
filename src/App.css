@@ -1,0 +1,110 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+  
+}
+
+ .it{
+  color: white;
+  font-weight: 800;
+ 
+ }  
+   
+
+.ken{
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  left: 560px;
+  position: relative;
+  color: white;
+  box-shadow: 2px 3px 20px 5px #b2c2b5;
+
+}
+
+.llona{
+  position: absolute;
+  top: 160px;
+  left: 380px;
+  text-align: left;
+  border: 1px solid;
+  width: 500px;
+  box-shadow: 4px 2px 7px 2px #918d8d;
+  color: white;
+
+}
+.kini{
+  font-weight: bold;
+}
+
+.ss{
+  position: absolute;
+  top: 280px;
+  left: 380px;
+  text-align: left;
+  border: 1px solid;
+  width: 500px;
+  box-shadow: 4px 2px 7px 2px #918d8d;
+  color: white;
+
+  
+}
+.ll{
+  font-weight: bold;
+}
+.mm{
+  position: absolute;
+  top: 440px;
+  left: 380px;
+  text-align: left;
+  border: 1px solid;
+  width: 500px;
+  box-shadow: 4px 2px 7px 2px #918d8d;
+  color: white;
+
+}
+.nn{
+  font-weight: bold;
+}
+
+
+ 
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
